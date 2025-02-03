@@ -13,6 +13,15 @@
 		76F360542D4D768900BDB87D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 76F360532D4D768900BDB87D /* Base */; };
 		76F360562D4D768B00BDB87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F360552D4D768B00BDB87D /* Assets.xcassets */; };
 		76F360592D4D768B00BDB87D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 76F360582D4D768B00BDB87D /* Base */; };
+		76F3606A2D51609800BDB87D /* pig-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F360612D51609800BDB87D /* pig-sound.wav */; };
+		76F3606B2D51609800BDB87D /* dragon-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F360622D51609800BDB87D /* dragon-sound.wav */; };
+		76F3606C2D51609800BDB87D /* dog-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F360632D51609800BDB87D /* dog-sound.wav */; };
+		76F3606D2D51609800BDB87D /* cow-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F360642D51609800BDB87D /* cow-sound.wav */; };
+		76F3606E2D51609800BDB87D /* lion-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F360652D51609800BDB87D /* lion-sound.wav */; };
+		76F3606F2D51609800BDB87D /* dolphin-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F360662D51609800BDB87D /* dolphin-sound.wav */; };
+		76F360702D51609800BDB87D /* dinossaur-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F360672D51609800BDB87D /* dinossaur-sound.wav */; };
+		76F360712D51609800BDB87D /* cat-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F360682D51609800BDB87D /* cat-sound.wav */; };
+		76F360722D51609800BDB87D /* chicken-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F360692D51609800BDB87D /* chicken-sound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		76F360552D4D768B00BDB87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76F360582D4D768B00BDB87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76F3605A2D4D768B00BDB87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F360612D51609800BDB87D /* pig-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pig-sound.wav"; sourceTree = "<group>"; };
+		76F360622D51609800BDB87D /* dragon-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dragon-sound.wav"; sourceTree = "<group>"; };
+		76F360632D51609800BDB87D /* dog-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dog-sound.wav"; sourceTree = "<group>"; };
+		76F360642D51609800BDB87D /* cow-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cow-sound.wav"; sourceTree = "<group>"; };
+		76F360652D51609800BDB87D /* lion-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "lion-sound.wav"; sourceTree = "<group>"; };
+		76F360662D51609800BDB87D /* dolphin-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dolphin-sound.wav"; sourceTree = "<group>"; };
+		76F360672D51609800BDB87D /* dinossaur-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dinossaur-sound.wav"; sourceTree = "<group>"; };
+		76F360682D51609800BDB87D /* cat-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cat-sound.wav"; sourceTree = "<group>"; };
+		76F360692D51609800BDB87D /* chicken-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chicken-sound.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 		76F3604B2D4D768900BDB87D /* Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				76F360602D51607900BDB87D /* Sounds */,
 				76F3604C2D4D768900BDB87D /* AppDelegate.swift */,
 				76F3604E2D4D768900BDB87D /* SceneDelegate.swift */,
 				76F360502D4D768900BDB87D /* ViewController.swift */,
@@ -65,6 +84,22 @@
 				76F3605A2D4D768B00BDB87D /* Info.plist */,
 			);
 			path = Soundboard;
+			sourceTree = "<group>";
+		};
+		76F360602D51607900BDB87D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				76F360682D51609800BDB87D /* cat-sound.wav */,
+				76F360692D51609800BDB87D /* chicken-sound.wav */,
+				76F360642D51609800BDB87D /* cow-sound.wav */,
+				76F360672D51609800BDB87D /* dinossaur-sound.wav */,
+				76F360632D51609800BDB87D /* dog-sound.wav */,
+				76F360662D51609800BDB87D /* dolphin-sound.wav */,
+				76F360622D51609800BDB87D /* dragon-sound.wav */,
+				76F360652D51609800BDB87D /* lion-sound.wav */,
+				76F360612D51609800BDB87D /* pig-sound.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +160,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F360722D51609800BDB87D /* chicken-sound.wav in Resources */,
+				76F3606B2D51609800BDB87D /* dragon-sound.wav in Resources */,
+				76F3606F2D51609800BDB87D /* dolphin-sound.wav in Resources */,
+				76F3606C2D51609800BDB87D /* dog-sound.wav in Resources */,
+				76F360702D51609800BDB87D /* dinossaur-sound.wav in Resources */,
+				76F3606E2D51609800BDB87D /* lion-sound.wav in Resources */,
 				76F360562D4D768B00BDB87D /* Assets.xcassets in Resources */,
 				76F360592D4D768B00BDB87D /* Base in Resources */,
+				76F3606D2D51609800BDB87D /* cow-sound.wav in Resources */,
 				76F360542D4D768900BDB87D /* Base in Resources */,
+				76F3606A2D51609800BDB87D /* pig-sound.wav in Resources */,
+				76F360712D51609800BDB87D /* cat-sound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
