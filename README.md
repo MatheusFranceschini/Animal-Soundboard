@@ -25,7 +25,7 @@ O desenvolvimento do aplicativo envolveu os seguintes conceitos e recursos do **
 
 ## 📷 Imagens do App
 
-![Soundboard Screenshot](https://github.com/user-attachments/assets/b844f7bd-76b0-463d-897a-3f8f53802089)
+![Soundboard Screenshot](https://github.com/user-attachments/assets/b844f7bd-76b0-463d-897a-3f8f53802089 =150x)
 
 ---
 
