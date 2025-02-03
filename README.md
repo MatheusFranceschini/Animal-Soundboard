@@ -78,4 +78,4 @@ The development of the app involved the following **Swift** concepts and resourc
 3. Connect a **simulator or physical device**.
 4. Compile and run the project! 🎉
 
-#### Developed by Matheus Franceschini!
+#### Developed by Matheus Franceschini
