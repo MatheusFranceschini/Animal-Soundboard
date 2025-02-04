@@ -19,6 +19,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureLayout()
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+        } catch {
+            print(error.localizedDescription)
+        }
     }
 
     func configureLayout() {
@@ -68,18 +75,5 @@ class ViewController: UIViewController {
         audioPlayer = try! AVAudioPlayer(contentsOf: sound!)
         audioPlayer.play()
     }
-    
 
-}
-
-enum Animals {
-    case chicken
-    case cow
-    case pig
-    case dog
-    case cat
-    case dolphin
-    case lion
-    case dinossaur
-    case dragon
 }
