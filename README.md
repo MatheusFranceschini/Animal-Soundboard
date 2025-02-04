@@ -25,7 +25,7 @@ O desenvolvimento do aplicativo envolveu os seguintes conceitos e recursos do **
 
 ## 📷 Imagens do App
 
-> *(Adicione capturas de tela aqui para ilustrar a interface e funcionalidades do aplicativo.)*
+![Soundboard Screenshot](https://github.com/user-attachments/assets/b844f7bd-76b0-463d-897a-3f8f53802089)
 
 ---
 
@@ -61,12 +61,7 @@ The development of the app involved the following **Swift** concepts and resourc
 - **Constraints and Stack View** for a responsive and well-structured interface.
 - **AVAudioPlayer** to load and play audio files.
 - **Optionals (`Optionals`)** to prevent initialization errors and improve code safety.
-
----
-
-## 📷 App Screenshots
-> *(Add screenshots here to showcase the app's interface and features.)*
-
+  
 ---
 
 ## 📲 Feel free to test it!
