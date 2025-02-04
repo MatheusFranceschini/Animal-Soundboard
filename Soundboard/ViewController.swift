@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         
         for button in soundButtonCollection {
             button.layer.cornerRadius = 16
-            button.layer.borderWidth = 2
+            button.layer.borderWidth = 3
             button.layer.borderColor = borderColor
         }
     }
